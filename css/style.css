@@ -1,0 +1,164 @@
+/*body{
+    
+    background-image: url("img/fondo.jpg")
+    
+
+}*/
+
+/*Inicio del diseño de ht y td de la tabla*/
+th, td {
+    border: none;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+/*Inicio del diseño de ht y td de la tabla*/
+
+/*Inicio del diseño del formulario*/
+input[type=text], select {/*diseño del input type text*/
+    width: 18%;
+    padding: 8px 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+input[type=email], select {/*diseño del input email*/
+    width: 18%;
+    padding: 8px 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+input[type=password], select {/*diseño del input password*/
+    width: 18%;
+    padding: 8px 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+input[type=date], select {/*diseño del input date*/
+    width: 18%;
+    padding: 8px 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+textarea[type=text], select {/*diseño del textarea*/
+    width: 18%;
+    padding: 8px 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+input[type=submit]{/*diseño del boton submit*/
+    background-color:#808080;/*Color Gray*/
+    color: white;
+    padding: 7px 20px;/*Dimemciones del submit*/
+    margin: 5px 0;
+    border: 10px;
+ }
+/*Fin del del diseño formulario*/
+
+/*Titulo utizado en el formulario*/
+h1{
+    color:#FF0000;/*Color red*/
+    font-size: 20px;
+    text-align: center;
+  }
+
+  h2{
+    color:#B22222;/*Color tinto*/
+    font-size: 30px;
+    text-align: center;
+  }
+/*Titulo utizado en el formulario*/
+
+
+a:link, a:visited {/*Link de los botones con link color gray*/
+    background-color:#808080;
+    color: white;
+   
+}
+
+
+ #imgprimaria{/*Picture edit and delete*/
+    width: 31px;
+    height:64%;
+    text-align: center;
+    margin: 0px;
+
+}
+
+
+.center{
+    text-align: center;
+
+}
+/*Diseño del paginador*/
+.pagination {
+    height: 36px;
+    margin: 18px 0;
+}
+.pagination ul {
+    border-radius: 3px;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+.pagination li {
+    display: inline;
+}
+.pagination a {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #DDDDDD;
+    border-style: solid;
+    border-width: 1px 1px 1px 0;
+    float: left;
+    line-height: 34px;
+    padding: 0 14px;
+    text-decoration: none;
+}
+.pagination a:hover, .pagination .active a {
+    background-color: #1E90FF;/*Azul*/
+}
+
+.login {
+    /*border: 1px solid #999; No usar esta línea y dejar box-shadow hace efecto de profundidad*/
+    border-radius:15px; /*probar con 10px se hacen ovalados los inputs*/
+    box-shadow: 2px 2px 3px 1px rgba(0,0,0,.8);
+    font:bold 12px Arial, Helvetica, sans-serif;
+    height: 30px;
+    line-height: 30px;
+    padding:0 2px;
+    /*width: 100px;*/
+}
+/*.botinput{
+    background-color:#B22222;/*Color tinto*/
+    /*padding: 7px 20px;/*Dimemciones del submit*/
+   /* margin: 5px 0;
+    border: 10px;
+}*/
